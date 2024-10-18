@@ -34,7 +34,7 @@ class DataCleaning:
     def moving_files(self):
         directory_lists=os.listdir("./data/")
         global_path="./data/"+str(directory_lists[1])+"/"
-        print directory_lists
+        print (directory_lists)
         for l in directory_lists[2:]:
             categories=os.listdir("./data/"+str(l)+"/")
             path_current="./data/"+str(l)+"/"
